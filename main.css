@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+* {
+    background-color: #090033;
+    color: #E6EAFF;
+    
+}
+
+* {
+    font-family: 'Amiri', serif;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    box-sizing: border-box;
+    padding: 15px 30px 0px;
+    font-size: 24px;
+}
+
+div {
+    margin: 0px 50px;
+}
+
+button {
+    box-sizing: border-box;
+    padding: 5px 5px 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.nav {
+    background-color: transparent;
+    overflow: hidden;
+}
+.nav a{
+    float: left;
+    text-align: center;
+    padding: 20px 20px 10px;
+}
+.nav a:hover {
+    background-color: #E6EAFF;
+    color: #090033;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 75%;
+}
+li {
+    border-right: #E6EAFF;
+}
+li :last-child {
+    border-right: none;
+}
+
+li a {
+    display: inline;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#shift {
+    margin-top: 50px;
+}
+
+#exclude {
+    position: relative;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#uniform {
+    margin-left: 25px;
+}
+#table {
+    border: 1px solid #E6EAFF;
+    width: 50%;
+    margin-left: 440px;
+    text-align: center;
+    font-size: 20px;
+}
+th {
+    border-bottom: 1px solid #E6EAFF;
+}
+td {
+    border-bottom: 1px dashed #E6EAFF;
+}
+#nomargin {
+    border-bottom: none;
+}
+.center {
+    text-align: center;
+}
+#shading {
+    background-color: rgba(0, 255, 255, 0.185);
+}
+#fontsize {
+    font-size: 20px;
+}
